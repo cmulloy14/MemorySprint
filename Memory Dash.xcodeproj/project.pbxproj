@@ -1,0 +1,485 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E9623CD819AC2D4C006207DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CD719AC2D4C006207DD /* Foundation.framework */; };
+		E9623CDA19AC2D4C006207DD /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CD919AC2D4C006207DD /* CoreGraphics.framework */; };
+		E9623CDC19AC2D4C006207DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CDB19AC2D4C006207DD /* UIKit.framework */; };
+		E9623CE219AC2D4C006207DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9623CE019AC2D4C006207DD /* InfoPlist.strings */; };
+		E9623CE419AC2D4C006207DD /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E9623CE319AC2D4C006207DD /* main.m */; };
+		E9623CE819AC2D4C006207DD /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E9623CE719AC2D4C006207DD /* AppDelegate.m */; };
+		E9623CEB19AC2D4C006207DD /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9623CE919AC2D4C006207DD /* Main_iPhone.storyboard */; };
+		E9623CEE19AC2D4C006207DD /* Main_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E9623CEC19AC2D4C006207DD /* Main_iPad.storyboard */; };
+		E9623CF119AC2D4C006207DD /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E9623CF019AC2D4C006207DD /* ViewController.m */; };
+		E9623CF319AC2D4C006207DD /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E9623CF219AC2D4C006207DD /* Images.xcassets */; };
+		E9623CFA19AC2D4C006207DD /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CF919AC2D4C006207DD /* XCTest.framework */; };
+		E9623CFB19AC2D4C006207DD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CD719AC2D4C006207DD /* Foundation.framework */; };
+		E9623CFC19AC2D4C006207DD /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E9623CDB19AC2D4C006207DD /* UIKit.framework */; };
+		E9623D0419AC2D4C006207DD /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = E9623D0219AC2D4C006207DD /* InfoPlist.strings */; };
+		E9623D0619AC2D4C006207DD /* Memory_DashTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E9623D0519AC2D4C006207DD /* Memory_DashTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E9623CFD19AC2D4C006207DD /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E9623CCC19AC2D4C006207DD /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9623CD319AC2D4C006207DD;
+			remoteInfo = "Memory Dash";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E9623CD419AC2D4C006207DD /* Memory Dash.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Memory Dash.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9623CD719AC2D4C006207DD /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		E9623CD919AC2D4C006207DD /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		E9623CDB19AC2D4C006207DD /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		E9623CDF19AC2D4C006207DD /* Memory Dash-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory Dash-Info.plist"; sourceTree = "<group>"; };
+		E9623CE119AC2D4C006207DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9623CE319AC2D4C006207DD /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E9623CE519AC2D4C006207DD /* Memory Dash-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Memory Dash-Prefix.pch"; sourceTree = "<group>"; };
+		E9623CE619AC2D4C006207DD /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E9623CE719AC2D4C006207DD /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E9623CEA19AC2D4C006207DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPhone.storyboard; sourceTree = "<group>"; };
+		E9623CED19AC2D4C006207DD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main_iPad.storyboard; sourceTree = "<group>"; };
+		E9623CEF19AC2D4C006207DD /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		E9623CF019AC2D4C006207DD /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		E9623CF219AC2D4C006207DD /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E9623CF819AC2D4C006207DD /* Memory DashTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Memory DashTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E9623CF919AC2D4C006207DD /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		E9623D0119AC2D4C006207DD /* Memory DashTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Memory DashTests-Info.plist"; sourceTree = "<group>"; };
+		E9623D0319AC2D4C006207DD /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		E9623D0519AC2D4C006207DD /* Memory_DashTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Memory_DashTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E9623CD119AC2D4C006207DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623CDA19AC2D4C006207DD /* CoreGraphics.framework in Frameworks */,
+				E9623CDC19AC2D4C006207DD /* UIKit.framework in Frameworks */,
+				E9623CD819AC2D4C006207DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9623CF519AC2D4C006207DD /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623CFA19AC2D4C006207DD /* XCTest.framework in Frameworks */,
+				E9623CFC19AC2D4C006207DD /* UIKit.framework in Frameworks */,
+				E9623CFB19AC2D4C006207DD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E9623CCB19AC2D4C006207DD = {
+			isa = PBXGroup;
+			children = (
+				E9623CDD19AC2D4C006207DD /* Memory Dash */,
+				E9623CFF19AC2D4C006207DD /* Memory DashTests */,
+				E9623CD619AC2D4C006207DD /* Frameworks */,
+				E9623CD519AC2D4C006207DD /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E9623CD519AC2D4C006207DD /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E9623CD419AC2D4C006207DD /* Memory Dash.app */,
+				E9623CF819AC2D4C006207DD /* Memory DashTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E9623CD619AC2D4C006207DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				E9623CD719AC2D4C006207DD /* Foundation.framework */,
+				E9623CD919AC2D4C006207DD /* CoreGraphics.framework */,
+				E9623CDB19AC2D4C006207DD /* UIKit.framework */,
+				E9623CF919AC2D4C006207DD /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		E9623CDD19AC2D4C006207DD /* Memory Dash */ = {
+			isa = PBXGroup;
+			children = (
+				E9623CE619AC2D4C006207DD /* AppDelegate.h */,
+				E9623CE719AC2D4C006207DD /* AppDelegate.m */,
+				E9623CE919AC2D4C006207DD /* Main_iPhone.storyboard */,
+				E9623CEC19AC2D4C006207DD /* Main_iPad.storyboard */,
+				E9623CEF19AC2D4C006207DD /* ViewController.h */,
+				E9623CF019AC2D4C006207DD /* ViewController.m */,
+				E9623CF219AC2D4C006207DD /* Images.xcassets */,
+				E9623CDE19AC2D4C006207DD /* Supporting Files */,
+			);
+			path = "Memory Dash";
+			sourceTree = "<group>";
+		};
+		E9623CDE19AC2D4C006207DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9623CDF19AC2D4C006207DD /* Memory Dash-Info.plist */,
+				E9623CE019AC2D4C006207DD /* InfoPlist.strings */,
+				E9623CE319AC2D4C006207DD /* main.m */,
+				E9623CE519AC2D4C006207DD /* Memory Dash-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E9623CFF19AC2D4C006207DD /* Memory DashTests */ = {
+			isa = PBXGroup;
+			children = (
+				E9623D0519AC2D4C006207DD /* Memory_DashTests.m */,
+				E9623D0019AC2D4C006207DD /* Supporting Files */,
+			);
+			path = "Memory DashTests";
+			sourceTree = "<group>";
+		};
+		E9623D0019AC2D4C006207DD /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E9623D0119AC2D4C006207DD /* Memory DashTests-Info.plist */,
+				E9623D0219AC2D4C006207DD /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E9623CD319AC2D4C006207DD /* Memory Dash */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9623D0919AC2D4C006207DD /* Build configuration list for PBXNativeTarget "Memory Dash" */;
+			buildPhases = (
+				E9623CD019AC2D4C006207DD /* Sources */,
+				E9623CD119AC2D4C006207DD /* Frameworks */,
+				E9623CD219AC2D4C006207DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Memory Dash";
+			productName = "Memory Dash";
+			productReference = E9623CD419AC2D4C006207DD /* Memory Dash.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E9623CF719AC2D4C006207DD /* Memory DashTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E9623D0C19AC2D4C006207DD /* Build configuration list for PBXNativeTarget "Memory DashTests" */;
+			buildPhases = (
+				E9623CF419AC2D4C006207DD /* Sources */,
+				E9623CF519AC2D4C006207DD /* Frameworks */,
+				E9623CF619AC2D4C006207DD /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E9623CFE19AC2D4C006207DD /* PBXTargetDependency */,
+			);
+			name = "Memory DashTests";
+			productName = "Memory DashTests";
+			productReference = E9623CF819AC2D4C006207DD /* Memory DashTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E9623CCC19AC2D4C006207DD /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Single Oat Studios";
+				TargetAttributes = {
+					E9623CF719AC2D4C006207DD = {
+						TestTargetID = E9623CD319AC2D4C006207DD;
+					};
+				};
+			};
+			buildConfigurationList = E9623CCF19AC2D4C006207DD /* Build configuration list for PBXProject "Memory Dash" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E9623CCB19AC2D4C006207DD;
+			productRefGroup = E9623CD519AC2D4C006207DD /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9623CD319AC2D4C006207DD /* Memory Dash */,
+				E9623CF719AC2D4C006207DD /* Memory DashTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E9623CD219AC2D4C006207DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623CEE19AC2D4C006207DD /* Main_iPad.storyboard in Resources */,
+				E9623CF319AC2D4C006207DD /* Images.xcassets in Resources */,
+				E9623CEB19AC2D4C006207DD /* Main_iPhone.storyboard in Resources */,
+				E9623CE219AC2D4C006207DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9623CF619AC2D4C006207DD /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623D0419AC2D4C006207DD /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E9623CD019AC2D4C006207DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623CF119AC2D4C006207DD /* ViewController.m in Sources */,
+				E9623CE819AC2D4C006207DD /* AppDelegate.m in Sources */,
+				E9623CE419AC2D4C006207DD /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E9623CF419AC2D4C006207DD /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E9623D0619AC2D4C006207DD /* Memory_DashTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E9623CFE19AC2D4C006207DD /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E9623CD319AC2D4C006207DD /* Memory Dash */;
+			targetProxy = E9623CFD19AC2D4C006207DD /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E9623CE019AC2D4C006207DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9623CE119AC2D4C006207DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		E9623CE919AC2D4C006207DD /* Main_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9623CEA19AC2D4C006207DD /* Base */,
+			);
+			name = Main_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		E9623CEC19AC2D4C006207DD /* Main_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9623CED19AC2D4C006207DD /* Base */,
+			);
+			name = Main_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		E9623D0219AC2D4C006207DD /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E9623D0319AC2D4C006207DD /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E9623D0719AC2D4C006207DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		E9623D0819AC2D4C006207DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E9623D0A19AC2D4C006207DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Dash/Memory Dash-Prefix.pch";
+				INFOPLIST_FILE = "Memory Dash/Memory Dash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		E9623D0B19AC2D4C006207DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Dash/Memory Dash-Prefix.pch";
+				INFOPLIST_FILE = "Memory Dash/Memory Dash-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		E9623D0D19AC2D4C006207DD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memory Dash.app/Memory Dash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Dash/Memory Dash-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "Memory DashTests/Memory DashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		E9623D0E19AC2D4C006207DD /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/Memory Dash.app/Memory Dash";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "Memory Dash/Memory Dash-Prefix.pch";
+				INFOPLIST_FILE = "Memory DashTests/Memory DashTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E9623CCF19AC2D4C006207DD /* Build configuration list for PBXProject "Memory Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9623D0719AC2D4C006207DD /* Debug */,
+				E9623D0819AC2D4C006207DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E9623D0919AC2D4C006207DD /* Build configuration list for PBXNativeTarget "Memory Dash" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9623D0A19AC2D4C006207DD /* Debug */,
+				E9623D0B19AC2D4C006207DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		E9623D0C19AC2D4C006207DD /* Build configuration list for PBXNativeTarget "Memory DashTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E9623D0D19AC2D4C006207DD /* Debug */,
+				E9623D0E19AC2D4C006207DD /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E9623CCC19AC2D4C006207DD /* Project object */;
+}
